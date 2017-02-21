@@ -1,0 +1,100 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.app-header .logo {
+  font-family: "Microsoft YaHei", segoe ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a,
+a:focus,
+button,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn.active.focus {
+  outline: none;
+}
+a{ cursor: pointer}
+
+body {
+  background-color: #eef1f6
+}
+
+.app-header {
+  background-color: #20A0FF;
+}
+
+.app-header .logo {
+  color: #fff;
+  border-bottom: 0 solid transparent;
+}
+
+.app-header .logo {
+  -webkit-transition: width .3s ease-in-out;
+  -o-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  display: block;
+  float: left;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  width: 230px;
+  font-weight: 300;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.app-header>.navbar {
+  -webkit-transition: margin-left .3s ease-in-out;
+  -o-transition: margin-left .3s ease-in-out;
+  transition: margin-left .3s ease-in-out;
+  margin-bottom: 0;
+  margin-left: 230px;
+  border: none;
+  min-height: 50px;
+  border-radius: 0;
+  /*box-shadow: 13px -3px 4px 4px #b7b3b3;*/
+}
+
+.app-header .navbar-custom-menu, .app-header .navbar-right {
+  float: right;
+}
+
+.navbar-nav {
+  line-height: 50px;
+  color: #fff;
+  margin: 0px;
+}
+.navbar-nav > li {
+  padding: 0 15px;
+}
+.navbar-nav > li > a {
+  display: inline;
+  padding: 0;
+  line-height: 50px;
+  color: #fff;
+}
+
+.navbar-custom-menu>.navbar-nav>li {
+  position: relative;
+}
+
+.navbar-nav > li {
+  padding: 0 15px;
+  display: block;
+  float: left;
+}
+
+
