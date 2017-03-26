@@ -1,7 +1,3 @@
-### 开发中
-
-> Bee
-
 ## Build Setup
 
 ``` bash
